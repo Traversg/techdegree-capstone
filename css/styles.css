@@ -1,0 +1,43 @@
+body {
+    font-family: 'Oswald';
+    color: white;
+    padding-top: 45px;
+}
+header,
+.btn {
+    background:  rgba(14, 66, 80);
+    border: white; 
+}
+
+.btn:hover {
+    background: grey;
+}
+
+.card {
+    background: #eeeded;
+    color: rgba(14, 66, 80);
+}
+
+.card-body p {
+    color: rgb(126, 125, 125);
+}
+.github:hover,
+.svg-icon:hover {
+    cursor: pointer;
+}
+
+.svg-icon {
+    width: 2em;
+    height: 2em;
+  }
+  
+  .svg-icon path,
+  .svg-icon polygon,
+  .svg-icon rect {
+    fill: white;
+  }
+  
+  .svg-icon circle {
+    stroke: #4691f6;
+    stroke-width: 1;
+  }
