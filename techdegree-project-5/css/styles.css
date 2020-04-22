@@ -1,0 +1,45 @@
+/* Body Layout */
+
+body {
+    text-align: center;
+    }
+
+main {
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+/* Search */
+
+input[type="text"] {
+    text-indent: 2%;
+    width: 50%;
+    font-size: 16px;
+    height: 35px;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: lightgray;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    outline: none;
+}
+
+input[type="text"]:focus {
+    border: 3px solid lightblue;
+}
+
+
+/* Grid Layout */
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 40px 10px;
+    justify-items: center;
+}
+
+/* Lightbox */
+.lb-data .lb-details {
+    text-align: center;
+}
+
